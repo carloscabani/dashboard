@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+/* styles.css */
+body {
+  background-color: #f0f0f0; /* Color de fondo deseado */
+}
+
+
 .logo {
   height: 6em;
   padding: 1.5em;

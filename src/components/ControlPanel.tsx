@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useRef } from 'react';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
@@ -11,7 +11,7 @@ export default function ControlPanel() {
 
     {/* Variable de estado y función de actualización */}
 
-    let [selected, setSelected] = useState<number>(-1);
+
 
     {/* Variable de referencia a un elemento */ }
 
@@ -33,7 +33,7 @@ export default function ControlPanel() {
     const handleChange = (event: SelectChangeEvent) => {
 
         let idx = parseInt(event.target.value)
-        setSelected( idx );
+       
 
         {/* Modificación de la referencia */}
 
